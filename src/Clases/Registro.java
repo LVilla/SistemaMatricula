@@ -32,9 +32,9 @@ public class Registro {
         
     }
     
-    public void Matricular(String nombre, String apellido, String identificacion, String fecha){
+    public void Matricular(String Nombres, String Apellidos, String identificacion, String fecha){
         
-        matriculas.add(new Matricula(nombre, apellido, identificacion, fecha));
+        matriculas.add(new Matricula(Nombres, Apellidos, identificacion, fecha));
         
     }
 

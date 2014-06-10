@@ -15,6 +15,14 @@ public class Estudiante {
     String Apellidos;
     String user;
     String contrase;
+
+    public Estudiante(String Nombres, String Apellidos, String user, String contrase) {
+        this.Nombres = Nombres;
+        this.Apellidos = Apellidos;
+        this.user = user;
+        this.contrase = contrase;
+    }
+    
     
 
     public String getNombres() {
@@ -46,13 +54,6 @@ public class Estudiante {
     }
 
     public void setContrase(String contrase) {
-        this.contrase = contrase;
-    }
-
-    public Estudiante(String Nombres, String Apellidos, String user, String contrase) {
-        this.Nombres = Nombres;
-        this.Apellidos = Apellidos;
-        this.user = user;
         this.contrase = contrase;
     }
 }
